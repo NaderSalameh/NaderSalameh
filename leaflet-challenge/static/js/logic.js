@@ -148,7 +148,7 @@ d3.json("plates.json").then((json) =>
           legend.onAdd = function() {
             var div = L.DomUtil.create("div", "legend");
         
-            var depth = [`-10km (BGS) `, `10km (BGS)`, `30km (BGS)`, `50km (BGS)`, `70km (BGS)`, `90km (BGS)`];
+            var depth = [`-10km (BGS)`, `10km (BGS)`, `30km (BGS)`, `50km (BGS)`, `70km (BGS)`, `90km (BGS)`];
             var depthColor = ["#5BFF33", "#FFC300", "#FF5733", "#C70039", "#900C3F", "#581845"];
         
         
