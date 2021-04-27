@@ -64,7 +64,7 @@ d3.json("plates.json").then((json) =>
                     
                 }).bindPopup(`  <h2> ${quake.properties.place} </h2> <hr>
                                 <h3> Magnitude: ${quake.properties.mag} </h3>
-                                <h3> Depth: ${quake.geometry.coordinates[2]}km
+                                <h3> Depth: ${quake.geometry.coordinates[2]}km </h3>
                                 <h3> Time: ${dateConversion(quake.properties.time)} </h3>`)
             ) 
         }) 
